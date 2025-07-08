@@ -1,0 +1,47 @@
+format = """
+$username\
+$hostname\
+$localip\
+$shlvl\
+$singularity\
+$kubernetes\
+$directory\
+$vcsh\
+$fossil_branch\
+$fossil_metrics\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$fill\
+$docker_context\
+$package\
+$c\
+$cmake\
+$lua\
+$python\
+$conda\
+$custom\
+$sudo\
+$cmd_duration\
+$line_break\
+$status\
+$character"""
+
+add_newline = true
+
+[conda]
+symbol = "\U0001F40D "
+ignore_base = false
+format = 'via [$symbol$environment]($style)'
+
+[directory]
+read_only = ''
+
+[fill]
+symbol = ' '
+
+[package]
+disabled = true
