@@ -3,9 +3,8 @@ $conda\
 $username\
 $directory\
 $git_branch\
-$git_commit\
-$git_state\
 $git_metrics\
+$fill\
 $cmd_duration\
 $line_break\
 $character"""
@@ -15,26 +14,28 @@ add_newline = true
 [conda]
 ignore_base = false
 style = 'white'
-format = '[\($environment\)]($style) '
+symbol = "\ue606  "
+format = '[\($symbol$environment\)]($style) '
 
 [username]
 show_always = true
-style_user = 'bold cyan'
+style_user = 'bold blue'
 format = '[$user]($style):'
 
 [directory]
-truncation_length = 10
+truncation_length = 8
 truncation_symbol = '.../'
 truncate_to_repo = false
-style = 'cyan'
+style = 'bold blue'
 format = '[$path]($style) '
 
+[fill]
+symbol = ' '
+
 [cmd_duration]
-min_time = 1000 # ms
 style = "yellow"
-format = '[\(took ](white)[$duration]($style)[\)](white)'
+format = 'took [$duration]($style) '
 
 [git_branch]
-symbol = "\ue0a0"
 style = 'purple'
-format = '[$symbol $branch ]($style)'
+format = '[$symbol$branch(:$remote_branch)]($style)'
