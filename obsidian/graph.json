@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"0 Zettelkasten\" -file:\"zettelkasten dataview\" -file:todo",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#draft  ",
+      "color": {
+        "a": 1,
+        "rgb": 14516806
+      }
+    },
+    {
+      "query": "path:\"0 Zettelkasten/Knowledge\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6991586
+      }
+    },
+    {
+      "query": "path:\"0 Zettelkasten/Thought\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6791523
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 2.54740804036458,
+  "lineSizeMultiplier": 2.54302164713542,
+  "collapse-forces": true,
+  "centerStrength": 0.497721354166667,
+  "repelStrength": 10.0016276041667,
+  "linkStrength": 1,
+  "linkDistance": 150,
+  "scale": 0.276437854114767,
+  "close": true
+}
