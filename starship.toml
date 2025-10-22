@@ -11,6 +11,10 @@ $character"""
 
 add_newline = true
 
+[python]
+symbol = "\ue606  "
+format = '(\(${symbol}${virtualenv}\) )'
+
 [conda]
 ignore_base = false
 style = 'white'
