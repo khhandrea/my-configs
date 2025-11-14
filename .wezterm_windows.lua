@@ -66,7 +66,6 @@ config.keys = {
   {key = 'v', mods = 'CTRL', action = act.PasteFrom 'Clipboard'},
 
   {key = 't', mods = 'CTRL', action = act.SpawnTab 'CurrentPaneDomain'},
-  {key = 'w', mods = 'CTRL', action = act.CloseCurrentTab{confirm=true}},
 
   {key = '=', mods = 'CTRL', action = act.IncreaseFontSize},
   {key = '-', mods = 'CTRL', action = act.DecreaseFontSize},
