@@ -64,7 +64,6 @@ config.keys = {
 	{ key = "v", mods = "SUPER", action = act.PasteFrom("Clipboard") },
 
 	{ key = "t", mods = "SUPER", action = act.SpawnTab("CurrentPaneDomain") },
-	{ key = "w", mods = "SUPER", action = act.CloseCurrentTab({ confirm = true }) },
 
 	{ key = "=", mods = "SUPER", action = act.IncreaseFontSize },
 	{ key = "-", mods = "SUPER", action = act.DecreaseFontSize },
