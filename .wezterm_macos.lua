@@ -60,10 +60,8 @@ config.keys = {
 	{ key = "8", mods = "SUPER", action = act.ActivateTab(8) },
 	{ key = "9", mods = "SUPER", action = act.ActivateTab(-1) },
 
-	{ key = "C", mods = "SUPER", action = act.CopyTo("Clipboard") },
-	{ key = "v", mods = "SUPER", action = act.PasteFrom("Clipboard") },
-
-	{ key = "t", mods = "SUPER", action = act.SpawnTab("CurrentPaneDomain") },
+	{ key = "C", mods = "SUPER|SHIFT", action = act.CopyTo("Clipboard") },
+	{ key = "v", mods = "SUPER|SHIFT", action = act.PasteFrom("Clipboard") },
 
 	{ key = "=", mods = "SUPER", action = act.IncreaseFontSize },
 	{ key = "-", mods = "SUPER", action = act.DecreaseFontSize },
