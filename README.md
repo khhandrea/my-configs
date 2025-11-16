@@ -1,2 +1,2 @@
-# my-configs
-Custom config files
+# hh-dotfiles
+Custom configuration dotfiles
