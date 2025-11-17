@@ -1,2 +1,3 @@
-# hh-dotfiles
+# Dotfiles
+
 Custom configuration dotfiles
