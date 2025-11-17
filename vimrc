@@ -25,4 +25,3 @@ set smartcase " Identify
 set mouse=a " Activate mouse
 set ignorecase " Ignore upper case or lower case
 set smartcase " Consider when an upper case is used
-set clipboard=unnamedplus " Activate clipboard with `y`
