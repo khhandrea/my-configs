@@ -13,13 +13,14 @@ config.window_decorations = "RESIZE"
 config.window_close_confirmation = "NeverPrompt"
 
 config.colors = {
-        foreground = "#CBE0F0",
-        background = "#011423",
-        cursor_bg = "#47FF9C",
-        cursor_fg = "#011423",
-        selection_bg = "#033259",
-        selection_fg = "#CBE0F0",
+	foreground = "#D8D8D0", 
+        background = "#222420",
+	cursor_bg = "#50D0A0",
+	cursor_fg = "#011423",
+	selection_bg = "#033259",
+	selection_fg = "#CBE0F0",
 }
+
 
 config.inactive_pane_hsb = {
         saturation = 0.8,
