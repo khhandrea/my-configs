@@ -1,4 +1,4 @@
-# MacOS: ~/.config/starship.toml
+# ~/.config/starship.toml
 format = """
 $conda\
 $username\
